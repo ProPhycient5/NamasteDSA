@@ -9,3 +9,9 @@ function createStarPattern(n){
 }
 
 createStarPattern(5)
+
+ // * * * * *
+ // * * * * *
+ // * * * * *
+ // * * * * *
+ // * * * * *
