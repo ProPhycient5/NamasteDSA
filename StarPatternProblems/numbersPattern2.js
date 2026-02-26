@@ -1,18 +1,19 @@
-function createNumbersPattern(n){
+
+function createNumbersPattern2(n){
     for (let i = 1; i <= n; i++){
         let numbers = ""
         for(let j = 1; j <= i; j++){
-            numbers = numbers + " " + j
+            numbers = numbers + " " + i
         }
         console.log(numbers)
     }
 }
 
 
-createNumbersPattern(5)
+createNumbersPattern2(5)
 
 //1
-//1 2
-//1 2 3
-//1 2 3 4
-//1 2 3 4 5
+//2 2
+//3 3 3
+//4 4 4 4
+//5 5 5 5 5
