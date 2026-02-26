@@ -1,6 +1,6 @@
 
 function createStarPattern2(n){
-    for (let i = 0; i < n; i++){
+    for (let i = 0; i <= n; i++){
         let star = ""
         for(let j = 0; j < i; j++){
             star = star + " " + "*"
@@ -10,7 +10,7 @@ function createStarPattern2(n){
 }
 
 
-createStarPattern2(5)
+createStarPattern2(4)
 
 //*
 //* *
